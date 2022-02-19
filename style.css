@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background: white;
+}
+
+.main .facebook-logo{
+  position: absolute;
+  top: 100px;
+  align-items: center;
+}
+.main .facebook-logo a{
+  font-size: 4rem;
+  font-weight: bold;
+  color: blue;
+}
+main .main-container{
+  width: 80%;
+  height: 450px;
+  position: absolute;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  background: white;
+  border-radius: 12px;
+}
+
+.main .main-container p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1px;
+  padding: 25px 0;
+}
+.main .main-container input{
+  width: 80%;
+  height: 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.main .main-container button{
+  width: 80%;
+  height: 30px;
+  background: darkblue;
+  border: 1px solid black
+  margin: 10px 0;
+}
+.main .main-container button a{
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.main .main-container .bottom-container {
+  width: 100%;
+  height: 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main .main-container .bottom-container a{
+  color: darkblue;
+  padding: 15px 0;
+}
+.main .main-container .bottom-container a span{
+  color: black
+  font-weight: 500;
+}
+.main .main-container .bottom-container h4{
+  font-size: 1.2rem
+  font-weight: 300;
+  padding: 15px 0;
+}
+.main .main-container .bottom-container button{
+  width: 50%;
+  height: 50px;
+  background: green;
+}
+.main .main-container .bottom-container button a{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px
+}
+#mugi{
+        color: gold;
+}
